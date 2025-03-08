@@ -1,0 +1,172 @@
+body{
+background-color:rgb(224, 247, 247);
+
+text-align:left;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: #333;
+margin: 0;
+padding: 0;
+
+}
+
+header{
+background-color :rgb(194, 252, 252);
+
+padding: 10px 20px;
+font-size: 1.2rem;
+font-weight: bold;
+color:midnightblue;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+box-shadow: 0 4px 10px rgb(0, 0,0.2);
+}
+
+.header-content{
+display:flex;
+align-items: center;
+justify-content: space-between;
+
+}
+.profile-container{
+display: flex;
+align-items: center;
+gap: 15px;
+
+}
+
+.contact-info{display: flex;
+flex-direction:column;
+align-items:flex-end;
+}
+.contact-info ul{ 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;}
+
+header h1,p
+{text-align: center;
+font-size: 10;}
+
+.contact-info a {
+    text-decoration: none;
+    color: midnightblue;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.contact-info a:hover {
+    color: #ff6b6b;
+    text-shadow: 0px 0px 5px #ff6b6b;
+}
+a{
+font-weight:bold;
+color: midnightblue;
+text-decoration: none;
+transition: color 0.3s ease-in-out;
+font-size: x-large;
+
+}
+a:hover{
+    color:#ff6b6b;
+    text-decoration: underline;
+    text-shadow: 0px 0px 5px #ff6b6b;
+}
+section{
+    background-color:rgb(224, 247, 247);
+margin:20px;
+padding:25px;
+border-radius: 12px;
+width: 50%;
+
+
+}
+
+.profile-pic{
+width:200px;
+height:200px;
+border-radius: 50%;
+border:3px solid midnightblue;
+display: block;
+
+margin-right: 15px;
+
+}
+
+
+header h2{font-weight:bold;
+    color: midnightblue;
+    text-align: center;
+}
+
+h2{font-weight:bold;
+    color: midnightblue;
+    }
+
+table{
+width: 100%;
+border-collapse: collapse;
+border:5px solid midnightblue;
+
+}
+
+th,td{
+    text-align: left;
+    padding: 10px;
+    border: 3px solid midnightblue;
+}
+
+th{background-color: lightcyan;
+    font-weight: bold;
+}
+
+.email-link{
+    display: block;
+margin: 20px auto;
+font-weight : bold;
+text-align: center;
+}
+
+label{font-weight: bold;
+margin-top: 10px;
+display: block;
+font-size: 16px;
+}
+
+input,select,textarea{
+padding: 12px;
+margin: 8px 0 ;
+border: 2px solid midnightblue;
+border-radius: 5px;
+font-size: 1rem;
+
+
+}
+
+button{background-color: midnightblue;
+border: none;
+color: white;
+padding: 12px 20px;
+font-size: 1rem;
+border-radius: 8px;
+cursor: pointer;
+transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+button:hover{
+transform: scale(1.05);
+box-shadow: 0px 0px 15px rgba(255, 107, 107, 0.5);
+
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul.soft-skills{
+
+    list-style-type: dotted;
+}
+
+
+
+

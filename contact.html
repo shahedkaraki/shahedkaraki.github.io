@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>Contact Me</title>
+</head>
+
+<body>
+
+<header>
+<h1>Contact Me </h1>
+<nav>
+<ul>
+<li>
+<a href="index.html">HOME</a>
+</li>
+</ul>
+</nav>
+</header>
+
+<section>
+<form action ="submit_form.php" method="POST">
+ <label for="name">Full Name :</label>
+ <input type="text" id ="name" name="name" required>
+<br>
+ <label for="email">Email Address :</label>
+ <input type="email" id ="email" name="email" required>
+<br>
+ <label for="country">Country :</label>
+ <select id="country" name="country" required>
+ <option value="">Select Your Country</option>
+ <option value="USA">USA</option>
+ <option value="UK">UK</option>
+ <option value="Jordan">Jordan</option>
+ <option value="Saudi Arabia">Saudi Arabia</option>
+ <option value="Other">Other</option>
+</select>
+<br>
+<label for="comments">Your Comments :</label>
+<textarea id="comments" name="comments" rows="10" required></textarea>
+ <br>
+ <button type="submit">Submit</button>
+</form>
+</section>
+</body>
+
+</html>
